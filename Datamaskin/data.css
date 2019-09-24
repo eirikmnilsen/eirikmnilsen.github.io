@@ -2,17 +2,22 @@ body {
     background-color: rgb(194, 194, 194);
 }
 
-header {
+header h1 {
     position: relative;
     background-color: gray;
     padding: 16px 14px;
-    margin: 0;
+    margin: -10px;
 }
 
 article {
     margin: 2em;
 }
 
-article > h1 {
-    color: rgb(255, 113, 113);
+div img {
+    width: 50%;
+    height: 50%;
+}
+
+#tekst {
+    width: 60vh;
 }
