@@ -9,6 +9,11 @@ header h1 {
     margin: -10px;
 }
 
+button {
+    position: absolute;
+    top: 70px;
+}
+
 article {
     margin: 2em;
 }
