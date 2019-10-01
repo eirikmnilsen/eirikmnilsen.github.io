@@ -134,6 +134,28 @@
     top: 20px;
 }
 
+.firkant[data-info]:hover::after
+ {
+    z-index:200;
+    white-space: pre-wrap;
+    padding: 10px;
+    content: attr(data-info);
+    position: absolute;
+    right: -200px;
+    top:20px;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: solid black 2px;
+    box-shadow: 0 0 6px black;
+    border-radius: 12px;
+}
+
+.firkant[data-more]:hover::after {
+    background-color: lightseagreen;
+    color: white;
+}
+
 .pil {
     position: absolute; 
     width: 200px;
@@ -164,6 +186,10 @@ div.pil:nth-of-type(2) {
     top: 250px;
     width: 175px;
     height: 198px;
+}
+
+.firkant.selected {
+    box-shadow: 3px 3px 3px black, inset 0 0 6px gold;
 }
 
 

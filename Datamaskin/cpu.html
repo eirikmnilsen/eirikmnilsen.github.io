@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CPU</title>
     <link rel="stylesheet" href="cpu.css">
+    <script src="cpu.js"></script>
 </head>
+
 <body>
-    
+
     <div class="firkant" id="cpu">
         <div id="CPU">CPU</div>
-        <div class="firkant" id="control">
+        <div class="firkant" id="control" data-info="Controll unit">
             <div id="controlunit">Control Unit</div>
         </div>
         <div class="firkant" id="processor">
             <div id="prosessor">Processor</div>
-            <div class="firkant" id="registers">
+            <div class="firkant" id="registers" data-more="Register"
+                data-info='Prosessorens arbeidsminne.    Typisk 8bit for tidlige cpuer, nå 64bit'>
                 <div id="register">Registers</div>
             </div>
-            <div class="firkant" id="alu">
+            <div class="firkant" id="alu" data-info="Beregninger og logikk">
                 <div id="logic">Combinational Logic</div>
             </div>
         </div>
     </div>
-    <div class="firkant" id="memory">
+    <div class="firkant" id="memory" data-info="RAM">
         <div id="mainmemory">Main Memory</div>
     </div>
-    <div class="firkant" id="input">
+    <div class="firkant" id="input" data-info="Keyboard, mus, nettverk">
         <div id="inputtekst">Input</div>
     </div>
-    <div class="firkant" id="output">
+    <div class="firkant" id="output" data-info="Output">
         <div id="outputtekst">Output</div>
     </div>
 
@@ -39,6 +43,10 @@
         <div class="pil ov"></div>
     </div>
 
+    <script>
+        setup();
+    </script>
 
 </body>
+
 </html>
