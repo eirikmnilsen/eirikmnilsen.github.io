@@ -14,11 +14,11 @@
         function hide(e) {
             let t = document.getElementById("hide");
             t.style.position = "relative";
-            let left = +(t.style.left.replace("px","")) + 40;
+            let left = +(t.style.left.replace("px", "")) + 40;
             t.style.left = left + "px";
-            let top = +(t.style.top.replace("px","")) + 40;
+            let top = +(t.style.top.replace("px", "")) + 40;
             t.style.top = top + "px";
-            }
+        }
 
         function helpme() {
             alert("HELP ME");
@@ -34,18 +34,11 @@
             <h1>Prosessor</h1>
             <div id="tekst">
                 <p>
-                    Prosessoren er hjernen i datamaskinen.
-                    Hastigheten på en CPU er mellom 2 - 4 Ghz for nye maskiner.
-                    CPU-en utfører instruksjonene gitt i et dataprogram,
-                    og den er det primære elementet som gjennomfører datamaskinens funkjsoner
+                    Prosessoren er hjernen i datamaskinen. Hastigheten på en CPU er mellom 2 - 4 Ghz for nye maskiner. CPU-en utfører instruksjonene gitt i et dataprogram, og den er det primære elementet som gjennomfører datamaskinens funkjsoner
                 </p>
                 <h1>Intel</h1>
                 <p>
-                    Amerikansk produsent av prosessor.
-                    Grunnlagt 1968 - laget intel 4004 CPU, 4 bits cpu.
-                    Dagens CPUer er 64bit. 4 bit gir 2^4 som største tall = 16.
-                    For 5-6 år siden var standard størrelse 32 bit.
-                    Dagens CPU kan jobbe med tall på 2^64 = 18446744073709551616.
+                    Amerikansk produsent av prosessor. Grunnlagt 1968 - laget intel 4004 CPU, 4 bits cpu. Dagens CPUer er 64bit. 4 bit gir 2^4 som største tall = 16. For 5-6 år siden var standard størrelse 32 bit. Dagens CPU kan jobbe med tall på 2^64 = 18446744073709551616.
                     <div>
                         <!-- bilde av en 8086-->
                         <img src="../Datamaskin/bilder/8086-Intel.jpg" alt="Intel">
@@ -53,8 +46,7 @@
                 </p>
                 <h1>AMD</h1>
                 <p>
-                    AMD (Advanced Micro Devices) laget sin første CPU 8080 AM9080
-                    (en klone av intel 8080).
+                    AMD (Advanced Micro Devices) laget sin første CPU 8080 AM9080 (en klone av intel 8080).
                     <div>
                         <!-- bilde av en AMD valgfritt-->
                         <img src="../Datamaskin/bilder/AMD-Prosessor.jpg" alt="AMD prosessor">
@@ -62,18 +54,58 @@
                 </p>
                 <h1>ARM</h1>
                 <p>
-                    Acorn (Advanced) RISC (Reduced Intruction Set Computer) Machine.
-                    RISC CPUer har få og enkle instruksjoner (i motsetning til intel).
-                    Hver instruksjon skal ta minst mulig tid.
-                    Kompliserte beregninger består av mange instruksjoner.
-
-                    Brukes i mobiler (nesten alle?)
+                    Acorn (Advanced) RISC (Reduced Intruction Set Computer) Machine. RISC CPUer har få og enkle instruksjoner (i motsetning til intel). Hver instruksjon skal ta minst mulig tid. Kompliserte beregninger består av mange instruksjoner. Brukes i mobiler (nesten
+                    alle?)
                     <div>
                         <!-- bilde av en arm brukt i en mobil-->
                         <img src="../Datamaskin/bilder/ARM-prosessor.jpg" alt="ARM prosessor">
                     </div>
                 </p>
 
+                <h1>Sammenligning av en 8-bit og en 64-bit CPU</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Forskjell</th>
+                            <th>8-bit</th>
+                            <th>64-bit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Temperatur</th>
+                            <th>Trenger ikke kjøling</th>
+                            <th>Effektiv kjøling nødvendig</th>
+                        </tr>
+                        <tr>
+                            <th>Antall transistorer</th>
+                            <th>3510</th>
+                            <th>1 750 000 000</th>
+                        </tr>
+                        <tr>
+                            <th>Transistorer / mm <sup>2</sup></th>
+                            <th>10 / mm <sup>2</sup></th>
+                            <th>17.5 millioner / mm <sup>2</sup></th>
+                        </tr>
+                        <tr>
+                            <th>Hastighet</th>
+                            <th>1000Hz</th>
+                            <th>2 000 000 000 Hz</th>
+                        </tr>
+                        <tr>
+                            <th>Pris</th>
+                            <th>250 kr</th>
+                            <th>3500 kr</th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>
+                    En CPU er en prosessor som utfører alle oppgavene i en datamaskin. Den blir ofte kalt datamaskinens hjerne. Cpu-en får input gjennom f.eks. tastetrykk på tastaturet. denne bokstaven som har blitt trykket på blir gjort om til binary numbers som blir prossesert
+                    i cpe-en og da henter den informasjon fra ram og den sier at det er bokstaven f. Da blir det sendt ut til output og f vises på skjermen.
+                    <br> en stor endring fra 8-bits 6502 er prisen, denne prosessoren fra 1975 er mye billigere enn en intel 8080. Den var nokså rask som de andre prosessorene og er brukt i forskjellige datamaskiner. en 8-bits prosessor kan jobbe med
+                    tall på 256 mens en moderne 64-bits prosessor kan jobbe med tall helt til 18446744073709551616. dagens cpu er raskere og mer komprimert.
+                </p>
             </div>
         </article>
         <article>
@@ -88,11 +120,8 @@
             <h1>Lagring</h1>
             <div id="tekst">
                 <p>
-                    Standard lagringsmedia idag er SSD.
-                    Tidligere (for få år siden) var HDD det mest brukte.
-                    SSD står for Solid state drive. siden den ikke har bevegelige deler, er søketiden kortere enn for
-                    mekanisk harddisk og den tåler støt bedre.
-                    HDD står for Hard drive disk.
+                    Standard lagringsmedia idag er SSD. Tidligere (for få år siden) var HDD det mest brukte. SSD står for Solid state drive. siden den ikke har bevegelige deler, er søketiden kortere enn for mekanisk harddisk og den tåler støt bedre. HDD står for Hard drive
+                    disk.
                 </p>
             </div>
         </article>
