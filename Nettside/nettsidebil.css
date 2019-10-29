@@ -1,0 +1,71 @@
+#annonser {
+    display: grid;
+    position: absolute;
+    top: 1000px;
+    grid-template-columns: 2fr 2fr 2fr;
+    font-family: sans-serif;
+}
+
+#annonser {
+    color: black;
+}
+
+#annonser #bil1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#annonser #bil2 {
+    padding: 10px;
+    text-align: center;
+}
+
+#annonser #bil3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#annonser img {
+    width: 75%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#annonser #bil1:hover {
+    box-shadow: 20px 20px 50px grey;
+    background-size: contain;
+    background-color: white;
+    transition: 1s;
+
+}
+
+#annonser #bil2:hover {
+    box-shadow: 20px 20px 50px grey;
+    background-size: contain;
+    background-color: white;
+    transition: 1s;
+
+}
+
+#annonser #bil3:hover {
+    box-shadow: 20px 20px 50px grey;
+    background-size: contain;
+    background-color: white;
+    transition: 1s;
+
+}
+
+#kampanjer {
+    position: absolute;
+    top: 950px;
+    left: 70px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}

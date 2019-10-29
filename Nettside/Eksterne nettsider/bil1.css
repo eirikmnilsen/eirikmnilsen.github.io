@@ -1,0 +1,15 @@
+#bilde1 img {
+    width:100%;
+    height:17%;
+}
+
+#tekst {
+    position: absolute;
+    top:85%;
+    left:8%;
+    color: white;
+}
+
+#tekst :last-child {
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+#kontakt {
+    display: grid;
+    position: absolute;
+    top: 1450px;
+    left: 400px;
+    grid-template-columns: 2fr 2fr;
+    font-family: sans-serif;
+}
+
+#border-left {
+    position: absolute;
+    left: 720px;
+    top: 1420px;
+    height: 350px;
+    width: 20px;
+    border-left: solid black 1px;
+}
+
+
+
+#kontakt article #selger {
+    text-transform: block;
+}
+
+
+#kontakt img {
+    width: 40%;
+}
+

@@ -1,0 +1,26 @@
+#info {
+    display: grid;
+    position: absolute;
+    width: 97.1%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    bottom: 0px;
+    height: 200px;
+    background-color: rgb(206, 47, 47);
+    top: 1900px;
+    padding: 2em;
+    margin: -10px;
+    
+}
+
+p:first-child {
+    font-size: 1.5em;
+}
+
+#ferarinorge {
+    color: black;
+}
+
+#info article p {
+    font-family: sans-serif;
+}
